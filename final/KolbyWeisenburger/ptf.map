@@ -1,0 +1,14 @@
+ra 1
+dec 2
+np 3
+nt 4
+bstrms 5
+rptf 6
+rerr 7
+rmerr 8
+rperr 9
+mutype 10
+errmu 11
+ptffield 12
+ci 13
+flag 14

@@ -1,0 +1,21 @@
+# Schema for PTF catalog
+filters: {complevel: 5, complib: blosc}
+schema:
+  common:
+    primary_key: ra
+    spatial_keys: [ra, dec]
+    columns:
+    - [ra, f8] 
+    - [dec, f8] 
+    - [np, i4]
+    - [nt, i4]
+    - [ptffield, i8]                                                                                                                
+    - [ci, i4]                                                                                                                      
+    - [flag, i4]                                                                                                                    
+    - [bstrms, f8]                                                                                                                  
+    - [rptf, f8]                                                                                                                    
+    - [rerr, f8]                                                                                                                    
+    - [rmerr, f8]                                                                                                                   
+    - [rperr, f8]                                                                                                                   
+    - [mutype, f8]                                                                                                                  
+    - [errmu, f8]  
